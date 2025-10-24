@@ -1,0 +1,17 @@
+streamlit
+openai
+faiss-cpu
+torch
+transformers
+python-dotenv
+pandas
+numpy
+PyPDF2
+python-docx
+scikit-learn
+
+
+
+
+
+Added requirements.txt for Streamlit Cloud deployment
