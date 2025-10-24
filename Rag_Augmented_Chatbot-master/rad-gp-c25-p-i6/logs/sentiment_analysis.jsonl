@@ -1,0 +1,4317 @@
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:05:42",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:06:02",
+  "session": "user-session",
+  "message": "who is pieter",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8543
+  },
+  "input_chars": 13
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:06:17",
+  "session": "user-session",
+  "message": "how old is he",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.857
+  },
+  "input_chars": 13
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:07:16",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 14:07:20",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 14:07:20",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:07:27",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:07:54",
+  "session": "user-session",
+  "message": "alright thanks",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.6393
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:39:12",
+  "session": "user-session",
+  "message": "who is pieter",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8543
+  },
+  "input_chars": 13
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:39:30",
+  "session": "user-session",
+  "message": "what is his favourite ice cream",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6334
+  },
+  "input_chars": 31
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 14:39:50",
+  "session": "user-session",
+  "message": "okay",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5299
+  },
+  "input_chars": 4
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 15:30:20",
+  "session": "user-session",
+  "message": "who is pieter",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8543
+  },
+  "input_chars": 13
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 15:30:43",
+  "session": "user-session",
+  "message": "what is his favourite ice cream",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6334
+  },
+  "input_chars": 31
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 15:30:44",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 15:37:44",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 15:38:08",
+  "session": "user-session",
+  "message": "I am so frustrated, this API does not work",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9419
+  },
+  "input_chars": 42
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 15:38:11",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 15:41:40",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 15:42:56",
+  "session": "user-session",
+  "message": "I'm so happy with the service",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.986
+  },
+  "input_chars": 29
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 15:46:47",
+  "session": "user-session",
+  "message": "How to bake a cake",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7744
+  },
+  "input_chars": 18
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 15:46:48",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 15:57:29",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 15:57:36",
+  "session": "user-session",
+  "message": "not work",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6233
+  },
+  "input_chars": 8
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:09:41",
+  "session": "user-session",
+  "message": "What is the difference between chat desk and chat flow",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9147
+  },
+  "input_chars": 54
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:18:28",
+  "session": "user-session",
+  "message": "This thing is not working",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8174
+  },
+  "input_chars": 25
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 16:18:30",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:22:10",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:32:15",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:34:01",
+  "session": "user-session",
+  "message": "Why aren't my messages being delivered?",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8407
+  },
+  "input_chars": 39
+}
+{
+  "event": "escalation",
+  "time": "2025-07-25 16:34:03",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:38:53",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:39:14",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:39:31",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:39:41",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:45:33",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 16:46:32",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-25 17:16:48",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-26 13:36:35",
+  "session": "user-session",
+  "message": "What SMS integration features are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9231
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 06:44:36",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 06:45:07",
+  "session": "user-session",
+  "message": "What are the API throughput limits?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9169
+  },
+  "input_chars": 35
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 06:45:08",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 06:45:25",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 07:08:12",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 07:08:44",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 07:09:14",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 07:09:20",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 07:09:33",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 07:10:04",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 07:10:35",
+  "session": "user-session",
+  "message": "I unhappy with the customer service",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9036
+  },
+  "input_chars": 35
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 07:10:39",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 07:11:50",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:29:09",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:29:29",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:29:34",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:29:54",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:30:09",
+  "session": "user-session",
+  "message": "What is the difference between chat desk and chat hub",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9051
+  },
+  "input_chars": 53
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:30:47",
+  "session": "user-session",
+  "message": "How do I get the API to work?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8551
+  },
+  "input_chars": 29
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:31:40",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:32:26",
+  "session": "user-session",
+  "message": "This API is not working, this is a huge problem for me",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9252
+  },
+  "input_chars": 54
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:32:31",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:32:45",
+  "session": "user-session",
+  "message": "How do I contact live support?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8877
+  },
+  "input_chars": 30
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:32:51",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:33:25",
+  "session": "user-session",
+  "message": "I was unhappy with the service today",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9051
+  },
+  "input_chars": 36
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:33:29",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:42:45",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:44:23",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:46:04",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:46:43",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:46:46",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:47:27",
+  "session": "user-session",
+  "message": "who is the CEO",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8443
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:47:42",
+  "session": "user-session",
+  "message": "how old is he",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.857
+  },
+  "input_chars": 13
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:48:07",
+  "session": "user-session",
+  "message": "this service was terrible",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9267
+  },
+  "input_chars": 25
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:48:11",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:48:20",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:49:06",
+  "session": "user-session",
+  "message": "I lost my ticket, i'm going to be late for my flight",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9129
+  },
+  "input_chars": 52
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:49:10",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:50:00",
+  "session": "user-session",
+  "message": "Thanks the service was great",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9778
+  },
+  "input_chars": 28
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:50:15",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:50:20",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:50:30",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:50:36",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:51:00",
+  "session": "user-session",
+  "message": "thanks",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.6796
+  },
+  "input_chars": 6
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 08:57:19",
+  "session": "user-session",
+  "message": "how to bake a cake",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.776
+  },
+  "input_chars": 18
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 08:57:23",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 10:57:52",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 10:57:56",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 10:58:04",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:03:58",
+  "session": "user-session",
+  "message": "Hi my name is Michael",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5921
+  },
+  "input_chars": 21
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:04:03",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:04:23",
+  "session": "user-session",
+  "message": "Is still dont get it",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.6876
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:04:46",
+  "session": "user-session",
+  "message": "I still dont get it",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.6279
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:04:59",
+  "session": "user-session",
+  "message": "I still dont get it",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.6279
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:05:24",
+  "session": "user-session",
+  "message": "I'm disappointed at the service",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9093
+  },
+  "input_chars": 31
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 18:05:26",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 18:05:33",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:44:44",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:44:54",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:45:05",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 18:45:09",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 18:45:16",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 18:57:01",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 19:04:36",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 19:04:50",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 19:04:54",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-27 19:04:59",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-27 20:17:49",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 08:49:30",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 08:49:53",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 08:50:09",
+  "session": "user-session",
+  "message": "this is not what i asked for",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8579
+  },
+  "input_chars": 28
+}
+{
+  "event": "escalation",
+  "time": "2025-07-28 08:50:10",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-28 08:50:17",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 11:05:40",
+  "session": "user-session",
+  "message": "Who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.874
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 11:06:19",
+  "session": "user-session",
+  "message": "Why aren't my messages being delivered?",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8407
+  },
+  "input_chars": 39
+}
+{
+  "event": "escalation",
+  "time": "2025-07-28 11:06:21",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-28 11:06:28",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 11:08:02",
+  "session": "user-session",
+  "message": "you are doing an excellent job, thank you",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9798
+  },
+  "input_chars": 41
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-28 11:09:50",
+  "session": "user-session",
+  "message": "this is a horrible service",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.935
+  },
+  "input_chars": 26
+}
+{
+  "event": "escalation",
+  "time": "2025-07-28 11:09:52",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-28 11:10:36",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:17:24",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:21:49",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:29:46",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:29:56",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:31:17",
+  "session": "user-session",
+  "message": "ii",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5386
+  },
+  "input_chars": 2
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 08:31:18",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 08:31:32",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:32:43",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:32:48",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:33:07",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 08:33:09",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 08:33:18",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:44:04",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:44:58",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:45:03",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 08:45:04",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:45:07",
+  "session": "user-session",
+  "message": "What SMS integration features are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9231
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:46:34",
+  "session": "user-session",
+  "message": "Who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.874
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:46:49",
+  "session": "user-session",
+  "message": "why is this Api slow",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.7689
+  },
+  "input_chars": 20
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 08:46:50",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:46:57",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:47:14",
+  "session": "user-session",
+  "message": "What SMS integration features are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9231
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 08:59:10",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:11:42",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:11:50",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:12:42",
+  "session": "user-session",
+  "message": "hi",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.4724
+  },
+  "input_chars": 2
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:17:37",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:17:48",
+  "session": "user-session",
+  "message": "How do I contact live support?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8877
+  },
+  "input_chars": 30
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:17:53",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 09:17:54",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 09:18:00",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:27:05",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:27:19",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:29:16",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:56:14",
+  "session": "user-session",
+  "message": "Who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.874
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 09:56:21",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 10:41:06",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 10:47:09",
+  "session": "user-session",
+  "message": "Why aren't my messages being delivered?",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8407
+  },
+  "input_chars": 39
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 10:47:12",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 10:47:22",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 10:48:35",
+  "session": "user-session",
+  "message": "ii",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5386
+  },
+  "input_chars": 2
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 10:48:36",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 10:52:21",
+  "session": "user-session",
+  "message": "Who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.874
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 10:52:34",
+  "session": "user-session",
+  "message": "how to bake a cake",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.776
+  },
+  "input_chars": 18
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 10:52:36",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 11:52:54",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 11:59:23",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 11:59:36",
+  "session": "user-session",
+  "message": "ii",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5386
+  },
+  "input_chars": 2
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 11:59:37",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 11:59:45",
+  "session": "user-session",
+  "message": "j",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.4733
+  },
+  "input_chars": 1
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 11:59:46",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 11:59:55",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 12:33:34",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:05:46",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:05:54",
+  "session": "user-session",
+  "message": "k",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5196
+  },
+  "input_chars": 1
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:05:55",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:06:08",
+  "session": "user-session",
+  "message": "k",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5196
+  },
+  "input_chars": 1
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:06:09",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:06:31",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:07:26",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:09:47",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:11:05",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:11:35",
+  "session": "user-session",
+  "message": "why",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5403
+  },
+  "input_chars": 3
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:11:37",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:18:16",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:23:37",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:23:39",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:23:49",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:24:50",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:25:01",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:25:03",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 13:25:40",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:25:42",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-30 13:25:48",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 14:02:48",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 15:04:22",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 16:07:08",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-30 16:20:49",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:36:00",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:36:18",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:36:23",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:36:29",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:38:29",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:38:42",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:38:46",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:38:50",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:39:05",
+  "session": "user-session",
+  "message": "difference between chat flow and chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8949
+  },
+  "input_chars": 42
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:40:55",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:41:15",
+  "session": "user-session",
+  "message": "why",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5403
+  },
+  "input_chars": 3
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:41:19",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:48:12",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "nope"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:54:17",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-07-31 10:54:22",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-07-31 10:54:46",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 22:29:51",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 22:30:03",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 22:39:49",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 22:39:53",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 23:20:15",
+  "session": "user-session",
+  "message": "hi",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.4724
+  },
+  "input_chars": 2
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 23:20:30",
+  "session": "user-session",
+  "message": "im good",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.6957
+  },
+  "input_chars": 7
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-03 23:24:15",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-03 23:24:18",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-03 23:24:22",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 13:45:34",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 14:56:29",
+  "session": "user-session",
+  "message": "what is clickatell",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6455
+  },
+  "input_chars": 18
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 14:56:41",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 14:56:56",
+  "session": "user-session",
+  "message": "who was michael shadowing?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9348
+  },
+  "input_chars": 26
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 14:56:57",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 14:57:02",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:38:51",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:40:19",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:40:26",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:40:32",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:04",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:05",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:07",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:08",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:10",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:11",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:13",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:14",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:41:16",
+  "session": "user-session",
+  "message": "what is the ceo name",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8915
+  },
+  "input_chars": 20
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:43:18",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 15:44:05",
+  "session": "user-session",
+  "message": "yes",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.4801
+  },
+  "input_chars": 3
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:03:27",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:03:51",
+  "session": "user-session",
+  "message": "whart is the difference between chat desk and chat flow",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8875
+  },
+  "input_chars": 55
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:05:42",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:06:09",
+  "session": "user-session",
+  "message": "Who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.874
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:33:31",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:33:44",
+  "session": "user-session",
+  "message": "how to bake a cake",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.776
+  },
+  "input_chars": 18
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 16:33:45",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 16:33:48",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:39:49",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:39:53",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:41:35",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:48:43",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:49:06",
+  "session": "user-session",
+  "message": "Who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.874
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:49:24",
+  "session": "user-session",
+  "message": "what is the difference between chat desk and chat flow",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9078
+  },
+  "input_chars": 54
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:49:58",
+  "session": "user-session",
+  "message": "this is not good enough",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8256
+  },
+  "input_chars": 23
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 16:50:01",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 16:50:08",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 16:59:27",
+  "session": "user-session",
+  "message": "what is chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7508
+  },
+  "input_chars": 17
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 19:54:17",
+  "session": "user-session",
+  "message": "what is chat hub",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6791
+  },
+  "input_chars": 16
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 19:54:19",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 19:54:54",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:02:51",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:03:04",
+  "session": "user-session",
+  "message": "who is casper",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8531
+  },
+  "input_chars": 13
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:03:06",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:03:13",
+  "session": "user-session",
+  "message": "who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8684
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:03:21",
+  "session": "user-session",
+  "message": "how old is he",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.857
+  },
+  "input_chars": 13
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:03:46",
+  "session": "user-session",
+  "message": "I'm so upset",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.7996
+  },
+  "input_chars": 12
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:04:01",
+  "session": "user-session",
+  "message": "this Api is not working",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.7665
+  },
+  "input_chars": 23
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:04:09",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:04:23",
+  "session": "user-session",
+  "message": "this is pressing",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6528
+  },
+  "input_chars": 16
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:04:38",
+  "session": "user-session",
+  "message": "the matter is really urgent",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6309
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:05:06",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:05:08",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:05:15",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:14:35",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:14:49",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:14:51",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:14:59",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:20:10",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:20:14",
+  "session": "user-session",
+  "message": "What APIs are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9198
+  },
+  "input_chars": 24
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:20:15",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:20:24",
+  "session": "user-session",
+  "message": "What SMS integration features are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9231
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:20:35",
+  "session": "user-session",
+  "message": "What are the best use cases?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.571
+  },
+  "input_chars": 28
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:20:41",
+  "session": "user-session",
+  "message": "Tell me about your global coverage",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8624
+  },
+  "input_chars": 34
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:20:45",
+  "session": "user-session",
+  "message": "What are the API throughput limits?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9169
+  },
+  "input_chars": 35
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:20:46",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:34:35",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:41:46",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-04 20:42:01",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:42:03",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-04 20:42:11",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 07:57:17",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 07:57:25",
+  "session": "user-session",
+  "message": ".",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5772
+  },
+  "input_chars": 1
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 21:49:58",
+  "session": "user-session",
+  "message": "what is clickate",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6644
+  },
+  "input_chars": 16
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 21:50:00",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 21:50:12",
+  "session": "user-session",
+  "message": "what is clickatell",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6455
+  },
+  "input_chars": 18
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 21:50:26",
+  "session": "user-session",
+  "message": "how to bake a cake",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.776
+  },
+  "input_chars": 18
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 21:50:27",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 21:50:40",
+  "session": "user-session",
+  "message": "what is the difference between chat flow and chat desk",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9027
+  },
+  "input_chars": 54
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 21:51:10",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 21:51:14",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 21:51:28",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 21:55:01",
+  "session": "user-session",
+  "message": "what is clickatell",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6455
+  },
+  "input_chars": 18
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:23:33",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:23:55",
+  "session": "user-session",
+  "message": "who is the ceo",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8684
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:24:12",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 22:24:15",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 22:24:22",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:24:47",
+  "session": "user-session",
+  "message": "o",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5066
+  },
+  "input_chars": 1
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:24:54",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:24:58",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:25:12",
+  "session": "user-session",
+  "message": "What are the best use cases?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.571
+  },
+  "input_chars": 28
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 22:25:13",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-05 22:25:20",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_declined",
+    "user_response": "no"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:26:13",
+  "session": "user-session",
+  "message": "Can I change my account email and password",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9046
+  },
+  "input_chars": 42
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:26:25",
+  "session": "user-session",
+  "message": "What are the API throughput limits?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9169
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:26:38",
+  "session": "user-session",
+  "message": "What SMS integration features are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9231
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-05 22:32:22",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-06 09:01:56",
+  "session": "user-session",
+  "message": "How do I get the API to work?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8551
+  },
+  "input_chars": 29
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-06 09:02:34",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-06 09:02:40",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-06 09:03:09",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-06 13:13:56",
+  "session": "user-session",
+  "message": "What is clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8014
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-06 13:14:08",
+  "session": "user-session",
+  "message": "Who is the CEO?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9173
+  },
+  "input_chars": 15
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-06 13:14:39",
+  "session": "user-session",
+  "message": "Are there any updates on the API's",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9505
+  },
+  "input_chars": 34
+}
+{
+  "event": "escalation",
+  "time": "2025-08-06 13:14:41",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:04:57",
+  "session": "user-session",
+  "message": "Hey, my name is Michael and I'm so excited to use to as a tool today",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9906
+  },
+  "input_chars": 68
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:05:12",
+  "session": "user-session",
+  "message": "what is clickatell",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6455
+  },
+  "input_chars": 18
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:05:39",
+  "session": "user-session",
+  "message": "can you tell me a bit about the sevice offerings",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9243
+  },
+  "input_chars": 48
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:06:13",
+  "session": "user-session",
+  "message": "This is not enough information for me, you're not giving me what I want",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.867
+  },
+  "input_chars": 71
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:06:15",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:06:30",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:31:42",
+  "session": "user-session",
+  "message": "what is clickatell",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6455
+  },
+  "input_chars": 18
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:32:14",
+  "session": "user-session",
+  "message": "Great, I'd like to know what offerings that have",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9021
+  },
+  "input_chars": 48
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:32:56",
+  "session": "user-session",
+  "message": "This is not enough information for my liking",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8577
+  },
+  "input_chars": 44
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:33:01",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:34:10",
+  "session": "user-session",
+  "message": "What is clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8014
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:34:44",
+  "session": "user-session",
+  "message": "Greate, what service offerings to they have?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9259
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:35:10",
+  "session": "user-session",
+  "message": "alright thanks",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.6393
+  },
+  "input_chars": 14
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:35:44",
+  "session": "user-session",
+  "message": "I actually was not satisfied with the answer you gave",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8177
+  },
+  "input_chars": 53
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:35:47",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:36:32",
+  "session": "user-session",
+  "message": "what is clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8087
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:36:50",
+  "session": "user-session",
+  "message": "What service offerings do they have?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9414
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:37:02",
+  "session": "user-session",
+  "message": "Great thanks",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.959
+  },
+  "input_chars": 12
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:37:44",
+  "session": "user-session",
+  "message": "I actually was not satisfied with the answer you gave me",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8138
+  },
+  "input_chars": 56
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:37:48",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:38:42",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:39:03",
+  "session": "user-session",
+  "message": "What services does Clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9052
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:39:13",
+  "session": "user-session",
+  "message": "How do I create an account?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8912
+  },
+  "input_chars": 27
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:39:24",
+  "session": "user-session",
+  "message": "What SMS integration features are available?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9231
+  },
+  "input_chars": 44
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:39:47",
+  "session": "user-session",
+  "message": "How do I get the API to work?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8551
+  },
+  "input_chars": 29
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:40:04",
+  "session": "user-session",
+  "message": "Why aren't my messages being delivered?",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8407
+  },
+  "input_chars": 39
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:40:09",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:40:35",
+  "session": "user-session",
+  "message": "How do I fix authentication issues?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.634
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 01:40:48",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:40:54",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 01:41:07",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:10:28",
+  "session": "user-session",
+  "message": "What is clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8014
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:11:31",
+  "session": "user-session",
+  "message": "what are the service offerings they have?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9418
+  },
+  "input_chars": 41
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:12:21",
+  "session": "user-session",
+  "message": "This is great, my manager will like this",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9882
+  },
+  "input_chars": 40
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:12:44",
+  "session": "user-session",
+  "message": "This information was not usefull",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.7214
+  },
+  "input_chars": 32
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:13:02",
+  "session": "user-session",
+  "message": "no",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.4535
+  },
+  "input_chars": 2
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:13:26",
+  "session": "user-session",
+  "message": "im unhappy with theinformation",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.7347
+  },
+  "input_chars": 30
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 03:13:42",
+  "session": "user-session",
+  "message": "this is frustrating",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.8418
+  },
+  "input_chars": 19
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 03:13:43",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 03:13:49",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 05:24:20",
+  "session": "user-session",
+  "message": "Hey my name is Michael",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.589
+  },
+  "input_chars": 22
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 05:24:39",
+  "session": "user-session",
+  "message": "What is clickatell and what does it offer",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8174
+  },
+  "input_chars": 41
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 05:24:59",
+  "session": "user-session",
+  "message": "Great my manager will love this",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9864
+  },
+  "input_chars": 31
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 05:25:45",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 05:25:47",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 05:25:56",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 10:00:47",
+  "session": "user-session",
+  "message": "hi",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.4724
+  },
+  "input_chars": 2
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 10:17:14",
+  "session": "user-session",
+  "message": "Hey my name is mike",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5991
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 10:17:55",
+  "session": "user-session",
+  "message": "what services does clickatell offer?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.914
+  },
+  "input_chars": 36
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 10:18:15",
+  "session": "user-session",
+  "message": "Greate my manager would love this",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.9761
+  },
+  "input_chars": 33
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-07 10:18:49",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 10:18:51",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-07 10:19:11",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 14:48:30",
+  "session": "user-session",
+  "message": "AWS vs Azure vs Google Cloud - which is best?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7122
+  },
+  "input_chars": 45
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 14:49:22",
+  "session": "user-session",
+  "message": "Can you assess our current tech stack?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8756
+  },
+  "input_chars": 38
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 14:50:08",
+  "session": "user-session",
+  "message": "What's the ROI of cloud migration?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8933
+  },
+  "input_chars": 34
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 16:06:37",
+  "session": "user-session",
+  "message": "Help me evaluate this acquisition opportunity",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.6051
+  },
+  "input_chars": 45
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 16:07:02",
+  "session": "user-session",
+  "message": "We're facing a PR crisis, what's our response strategy?",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.5492
+  },
+  "input_chars": 55
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 16:12:45",
+  "session": "user-session",
+  "message": "hg",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5918
+  },
+  "input_chars": 2
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 16:13:03",
+  "session": "user-session",
+  "message": "no",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.4535
+  },
+  "input_chars": 2
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-13 16:13:39",
+  "session": "user-session",
+  "message": "i cant see my docs",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.6695
+  },
+  "input_chars": 18
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 19:54:16",
+  "session": "user-session",
+  "message": "What is clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8014
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 19:54:46",
+  "session": "user-session",
+  "message": "Tell me a bit about the employees",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9029
+  },
+  "input_chars": 33
+}
+{
+  "event": "escalation",
+  "time": "2025-08-14 19:54:54",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 19:57:43",
+  "session": "user-session",
+  "message": "can you tell me anything about the teams a clickatell",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8983
+  },
+  "input_chars": 53
+}
+{
+  "event": "escalation",
+  "time": "2025-08-14 19:57:45",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "escalation",
+  "time": "2025-08-14 19:58:04",
+  "session": "user-session",
+  "escalation": {
+    "reason": "escalation_accepted",
+    "user_response": "yes"
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:37:46",
+  "session": "user-session",
+  "message": "What is Clickatell?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8416
+  },
+  "input_chars": 19
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:38:05",
+  "session": "user-session",
+  "message": "Tell me about your global coverage",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8624
+  },
+  "input_chars": 34
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:38:20",
+  "session": "user-session",
+  "message": "How do I contact live support?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8877
+  },
+  "input_chars": 30
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:38:44",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:38:54",
+  "session": "user-session",
+  "message": "Customers aren't receiving messages",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5302
+  },
+  "input_chars": 35
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:38:59",
+  "session": "user-session",
+  "message": "I need immediate technical assistance",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.5813
+  },
+  "input_chars": 37
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:39:05",
+  "session": "user-session",
+  "message": "My system is down, I need help",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9045
+  },
+  "input_chars": 30
+}
+{
+  "event": "escalation",
+  "time": "2025-08-14 20:39:07",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:56:06",
+  "session": "user-session",
+  "message": "Hi, I just installed the latest version of the app",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7586
+  },
+  "input_chars": 50
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:56:30",
+  "session": "user-session",
+  "message": "I noticed a few changes in the interface, and I\u2019m still exploring them",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.7725
+  },
+  "input_chars": 70
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:56:49",
+  "session": "user-session",
+  "message": "However, the app keeps crashing every time I try to open a file. It\u2019s really frustrating.",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.9053
+  },
+  "input_chars": 89
+}
+{
+  "event": "escalation",
+  "time": "2025-08-14 20:56:58",
+  "session": "user-session",
+  "escalation": {
+    "reason": "negative_sentiment",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:58:03",
+  "session": "user-session",
+  "message": "Hey what service offerings  does Clickatell have?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9092
+  },
+  "input_chars": 49
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 20:58:53",
+  "session": "user-session",
+  "message": "what packages can you offer me?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.8958
+  },
+  "input_chars": 31
+}
+{
+  "event": "escalation",
+  "time": "2025-08-14 20:58:57",
+  "session": "user-session",
+  "escalation": {
+    "reason": "ai_confidence_low",
+    "user_response": null
+  }
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 21:00:39",
+  "session": "user-session",
+  "message": "Hey what service offerings does Clickatell have?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.9092
+  },
+  "input_chars": 48
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 21:00:53",
+  "session": "user-session",
+  "message": "what plans do you have for me?",
+  "sentiment": {
+    "label": "neutral",
+    "confidence": 0.821
+  },
+  "input_chars": 30
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 21:02:53",
+  "session": "user-session",
+  "message": "Hi, we\u2019re a mid-sized tech company based in Cape Town focused on customer engagement through digital channels. We're looking to expand our messaging capabilities to include WhatsApp, SMS, and potentia...",
+  "sentiment": {
+    "label": "positive",
+    "confidence": 0.5919
+  },
+  "input_chars": 362
+}
+{
+  "event": "sentiment_analysis",
+  "time": "2025-08-14 21:06:24",
+  "session": "user-session",
+  "message": "Hi, I\u2019ve been trying to reset my password using the 'Forgot password' link on the login page. I\u2019ve followed the instructions and waited, but I haven\u2019t received any reset email. I\u2019ve checked my spam fo...",
+  "sentiment": {
+    "label": "negative",
+    "confidence": 0.7046
+  },
+  "input_chars": 394
+}

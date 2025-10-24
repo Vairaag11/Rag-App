@@ -1,0 +1,353 @@
+Clickatell Q&A Chatbot Knowledge Base
+=====================================
+
+Project Context:
+----------------
+This knowledge base is designed to support the implementation of a company-specific Q&A chatbot for Clickatell. The chatbot will use vector-based retrieval to provide fast, contextual, and accurate responses using the information compiled below. This document is structured to facilitate embedding into a vector database and support prompt generation with metadata tags.
+
+---
+
+Section 1: Company Overview
+---------------------------
+- Founded: 2000
+- Headquarters: Silicon Valley, California, USA
+- Offices: Canada, South Africa, Nigeria
+- Mission: To make commerce in chat accessible to everyone, everywhere
+- CEO: Pieter de Villiers
+- Customers: 10,000+ including Fortune 50 brands
+- Employees: 200+ across 4 global offices
+- Company Culture: Innovation-first, customer-obsessed, globally diverse
+- Core Values: Innovation, Customer Success, Transparency, Continuous Learning
+
+---
+
+Section 2: Products & Services
+------------------------------
+
+**Core Messaging Services:**
+- **SMS Gateway:** Global SMS delivery to 220+ countries via 1000+ mobile networks
+- **WhatsApp Business API:** Official WhatsApp messaging with rich media support
+- **One API:** Unified RESTful API for SMS and WhatsApp messaging
+- **Two-Way SMS:** Interactive SMS conversations with keyword responses
+- **Bulk SMS:** High-volume message broadcasting with delivery tracking
+- **Premium SMS:** Revenue-generating SMS services with carrier billing
+
+**Chat Commerce Platform:**
+- **Multi-channel messaging:** SMS, WhatsApp, web chat integration
+- **Live agent support:** Real-time customer service capabilities
+- **In-chat payments:** Secure payment processing within conversations
+- **Rich media messaging:** Images, videos, documents, location sharing
+- **Message templates:** Pre-approved WhatsApp business templates
+- **Conversation management:** Unified inbox for all customer interactions
+
+**Automation & Workflow Tools:**
+- **Chat Flow:** Visual workflow builder for chatbot automation
+- **Auto-responders:** Intelligent message routing and responses
+- **Keyword triggers:** Automated responses based on message content
+- **Scheduled messaging:** Time-based message delivery
+- **Drip campaigns:** Sequential messaging workflows
+- **A/B testing:** Message optimization and performance testing
+
+**Payment Solutions:**
+- **Chat 2 Pay:** In-chat payments via secure links on WhatsApp or SMS
+- **Payment gateway integration:** Support for major payment processors
+- **Secure payment links:** PCI-compliant payment processing
+- **Transaction tracking:** Real-time payment status monitoring
+- **Multi-currency support:** Global payment processing capabilities
+- **Subscription billing:** Recurring payment management
+
+**Customer Support Tools:**
+- **Chat Desk:** Live agent interface for real-time customer support
+- **Agent routing:** Intelligent conversation assignment
+- **Canned responses:** Quick reply templates for agents
+- **Conversation history:** Complete customer interaction records
+- **Performance analytics:** Agent productivity and customer satisfaction metrics
+- **Escalation management:** Automated escalation workflows
+
+**Analytics & Reporting:**
+- **Delivery reports:** Real-time message delivery status
+- **Engagement analytics:** Open rates, click-through rates, response rates
+- **Conversion tracking:** Sales and goal completion monitoring
+- **Custom dashboards:** Personalized reporting interfaces
+- **API analytics:** Usage statistics and performance metrics
+- **ROI reporting:** Campaign effectiveness and revenue attribution
+
+**Integration Services:**
+- **CRM integration:** Salesforce, HubSpot, Zendesk connectivity
+- **E-commerce platforms:** Shopify, WooCommerce, Magento integration
+- **Marketing automation:** Mailchimp, Marketo, Pardot connectivity
+- **Custom API integration:** RESTful APIs for custom applications
+- **Webhook support:** Real-time event notifications
+- **Single Sign-On (SSO):** Enterprise authentication integration
+
+**Enterprise Solutions:**
+- **Dedicated infrastructure:** Private cloud and on-premise options
+- **Custom development:** Tailored solutions for enterprise needs
+- **24/7 support:** Dedicated account management and technical support
+- **SLA guarantees:** Uptime and delivery performance commitments
+- **Compliance tools:** GDPR, HIPAA, and industry-specific compliance
+- **White-label solutions:** Branded messaging platforms for resellers
+
+---
+
+Section 3: Brief on Developer and API Documentation
+------------------------------------------
+- **Authentication:** API Key in Authorization header, HTTPS, TLS 1.2+
+- **Message Send (One API):** JSON POST request with fields `text` and `to`
+- **Delivery Status:** Real-time updates via callback URL
+- **WhatsApp Templates:** Pre-approved messages with variables {{1}}, {{2}}, etc.
+- **API Docs:** https://docs.clickatell.com/channels/one-api/one-api-reference/
+
+---
+
+Section 4: Pricing and Plans
+----------------------------
+
+**Service Tiers:**
+
+**Starter Plan:**
+- Basic SMS messaging
+- One API access
+- Standard delivery
+- Email support
+- Pay-as-you-go pricing
+- No monthly fees
+- Perfect for small businesses and testing
+
+**Connect Plan:**
+- Everything in Starter
+- WhatsApp Business API
+- Campaign manager
+- High throughput messaging
+- Priority delivery
+- Phone and chat support
+- Monthly subscription available
+- Bulk messaging discounts
+
+**Interact Plan:**
+- Everything in Connect
+- Chat Flow automation
+- Chat Desk live support
+- CRM integrations
+- Advanced analytics
+- Custom webhooks
+- Dedicated account manager
+- SLA guarantees
+
+**Transact Plan:**
+- Everything in Interact
+- Chat 2 Pay payment processing
+- Advanced compliance tools
+- Custom integrations
+- White-label options
+- Enterprise security
+- 24/7 premium support
+- Custom pricing available
+
+**Pricing Structure:**
+- **SMS:** Starting from $0.045 per message (varies by destination)
+- **WhatsApp:** Conversation-based pricing from $0.005-$0.09 per conversation
+- **Premium features:** Monthly subscription fees apply
+- **Enterprise:** Custom pricing based on volume and requirements
+- **Payment processing:** 2.9% + $0.30 per transaction
+- **Setup fees:** Waived for annual commitments
+
+**Billing Options:**
+- **Prepaid:** Credit-based system with top-up options
+- **Postpaid:** Monthly invoicing for enterprise customers
+- **Auto-recharge:** Automatic balance replenishment
+- **Volume discounts:** Tiered pricing for high-volume users
+- **Annual discounts:** Up to 20% savings on yearly commitments
+- **Multi-currency:** Billing in local currencies available
+
+---
+
+Section 5: Workflows & Troubleshooting
+--------------------------------------
+- **Set Up WhatsApp:** Register WABA, get approval, sync templates
+- **Send Test SMS:** POST to One API, monitor callback status
+- **Troubleshoot:** Use delivery status, error codes, and opt-in validation
+- **Template Management:** Create via Facebook Business Manager, sync in portal
+
+---
+
+Section 6: Frequently Asked Questions (FAQs)
+--------------------------------------------
+
+Account Setup and Management
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- **Can I change my account email and password?** Yes, via the Clickatell Portal settings.
+- **What if I forget my password?** Use "Forgot password" on the login page to receive a reset email.
+- **What if I didn't get the activation email?** Check spam or contact support for assistance.
+- **How can I close my account?** Go to Profile > Account Details > Close Account.
+- **What roles can I assign to users?** Choose from default roles or create custom ones.
+
+Pricing and Billing
+~~~~~~~~~~~~~~~~~~~
+- **Can I get a refund?** Refunds are handled case-by-case; a processing fee may apply.
+- **How to manage PayPal?** Add/remove in Billing & Payments > Payment Methods.
+- **How to top up?** Go to Profile > Top Up Balance or use the Billing section.
+- **Are failed messages billed?** Only if the message left Clickatell's system.
+- **Can I change my billing currency?** No, it's fixed once set.
+
+API Integration
+~~~~~~~~~~~~~~~
+- **What's required for third-party integration?** Valid Clickatell & app accounts plus API setup.
+- **Which apps are supported?** Salesforce, Shopify, Zendesk, and more.
+- **How to manage integrations?** Enable, disable, or reconnect via the Chat Flow portal.
+
+Messaging and Delivery
+~~~~~~~~~~~~~~~~~~~~~~
+- **Does Clickatell support Unicode?** Yes, UTF-8 encoding is supported.
+- **What's the max SMS length?** 160 chars (GSM) or 70 chars (Unicode); multipart supported.
+- **Standard vs Priority delivery?** Priority is faster; Standard is more cost-effective.
+- **Why might test SMS not deliver?** Ensure test numbers are verified and account has balance.
+- **Why require a balance for test messages?** Prevents misuse of free testing.
+- **What causes delivery failures?** Invalid numbers, blocked content, or regional restrictions.
+
+Supported Channels
+~~~~~~~~~~~~~~~~~~
+- **Which channels are supported?** 
+- SMS (Global coverage to 220+ countries)
+- WhatsApp Business API (Official business messaging)
+- Rich Communication Services (RCS)
+- Web chat widgets
+- Mobile app messaging
+- Email integration
+- Voice messaging
+- USSD (Unstructured Supplementary Service Data)
+- Push notifications
+- Social media messaging (Facebook, Instagram)
+
+- **Does Clickatell have global SMS reach?** Yes, over 1000 mobile networks in 220+ countries with 99.9% uptime guarantee.
+
+Support
+~~~~~~~
+- **How to contact support?** 
+- Online support form at clickatell.com/support
+- Email: support@clickatell.com
+- Live chat (available 24/7)
+- Phone support for Connect+ plans
+- Dedicated account managers for Enterprise
+- Community forum and knowledge base
+
+- **Is support available 24/7?** Yes, with different tiers:
+- Basic: Email and online form
+- Connect: Phone and chat support during business hours
+- Enterprise: 24/7 phone, chat, and dedicated support
+
+- **Where to find self-help?** 
+- Help Center: help.clickatell.com
+- Developer Documentation: docs.clickatell.com
+- API Reference: docs.clickatell.com/api
+- Video tutorials and webinars
+- Community forum
+- Status page: status.clickatell.com
+
+---
+
+Section 7: Team and Organizational Information
+---------------------------------------------
+
+Key Leadership:
+- CEO: Pieter de Villiers (overall strategy and vision)
+- CTO: Dr. Sarah Mitchell (technology and innovation)
+- CFO: Michael Chen (finance and operations)
+- VP Sales: Jennifer Rodriguez (global sales strategy)
+- VP Marketing: David Thompson (brand and customer acquisition)
+
+Department Structure:
+- Engineering: 35+ engineers across Platform, API, Mobile, DevOps, and QA teams
+- Product Management: 10+ product managers and analysts
+- Sales: 35+ sales professionals across enterprise, mid-market, and inside sales
+- Customer Success: 18+ specialists for implementation and support
+- Marketing: 10+ professionals in digital, content, and product marketing
+- Support: 35+ technical and customer support representatives
+
+Global Offices:
+- Silicon Valley HQ: Main engineering and leadership hub
+- Toronto, Canada: Mobile engineering and sales
+- Cape Town, South Africa: Engineering and regional support
+- Lagos, Nigeria: Sales and business development
+
+Contact Information:
+- General Support: support@clickatell.com
+- Technical Support: tech-support@clickatell.com
+- Sales Inquiries: sales@clickatell.com
+- Partnership Inquiries: partners@clickatell.com
+- HR and Careers: careers@clickatell.com
+- R&D Team: research@clickatell.com
+- Innovation Inquiries: innovation@clickatell.com
+
+Company Culture:
+- Hybrid work model with flexible remote options
+- Innovation Days for experimental projects
+- Comprehensive benefits including unlimited PTO
+- Strong focus on diversity, inclusion, and professional development
+- 95% employee satisfaction rate and 4.8/5 Glassdoor rating
+
+---
+
+Section 8: Research and Development Team
+---------------------------------------
+
+R&D Team Overview:
+- 12-person specialized team focused on emerging technologies
+- Led by Dr. Sarah Mitchell (CTO) and R&D Director Alex Chen
+- Located primarily in Silicon Valley HQ with remote members
+- Dedicated to innovation, experimentation, and future product development
+- Budget allocation: 15% of total engineering resources
+
+R&D Team Structure:
+- AI/ML Engineers (4): Machine learning, NLP, and predictive analytics
+- Research Scientists (3): Academic research, paper publications, patent development
+- Prototype Engineers (3): Rapid prototyping, proof-of-concepts, MVP development
+- Data Scientists (2): Advanced analytics, research data analysis, insights
+
+Current Research Focus Areas:
+- Conversational AI and chatbot intelligence enhancement
+- Real-time language translation for global messaging
+- Predictive message delivery optimization using ML
+- Blockchain integration for secure messaging
+- Voice-to-text and text-to-voice messaging capabilities
+- Advanced sentiment analysis and customer behavior prediction
+
+R&D Work Methodology:
+- 6-week research cycles instead of traditional sprints
+- 70% time on assigned projects, 30% on personal research interests
+- Monthly "Innovation Fridays" for cross-team collaboration
+- Quarterly research presentations to executive team
+- Annual R&D conference with external industry experts
+- Peer review process for all research outputs
+
+Research Tools and Technologies:
+- Python, TensorFlow, PyTorch for ML development
+- Jupyter notebooks for research and experimentation
+- AWS SageMaker for model training and deployment
+- Docker and Kubernetes for containerized experiments
+- Git LFS for large dataset version control
+- Weights & Biases for experiment tracking
+
+Collaboration and Knowledge Sharing:
+- Weekly "Research Roundtable" discussions
+- Internal research paper repository and wiki
+- Collaboration with universities (Stanford, MIT, UCB)
+- Industry conference participation and speaking engagements
+- Open source contributions to relevant projects
+- Cross-pollination with product engineering teams
+
+R&D Performance Metrics:
+- Research paper publications and citations
+- Patent applications and approvals
+- Successful prototype-to-product transitions
+- Innovation impact on company revenue
+- External recognition and industry awards
+- Knowledge transfer to product teams
+
+Career Development in R&D:
+- Technical track: Research Scientist → Senior Research Scientist → Principal Scientist
+- Leadership track: R&D Engineer → R&D Team Lead → R&D Director
+- Dual-track opportunities with product engineering teams
+- Conference speaking and publication opportunities
+- PhD sponsorship program for continuing education
+- Sabbatical opportunities for advanced research projects
