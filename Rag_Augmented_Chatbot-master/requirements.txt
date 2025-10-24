@@ -9,3 +9,6 @@ numpy
 PyPDF2
 python-docx
 scikit-learn
+langchain
+langchain-community
+faiss-cpu
